@@ -12,7 +12,7 @@ require('dotenv').config();
 
 if (process.env.BROWSER) {
   throw new Error(
-    'Do not import `config.js` from inside the client-side code.',
+    'Do not import `config.js` from inside the client-side code.'
   );
 }
 
@@ -36,7 +36,7 @@ module.exports = {
   },
 
   // Database
-  databaseUrl: process.env.DATABASE_URL || 'sqlite:database.sqlite',
+  databaseUrl: process.env.DATABASE_URL || '',
 
   // Web analytics
   analytics: {
