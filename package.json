@@ -1,0 +1,43 @@
+{
+  "name": "isophysystem-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "apollo-server-express": "^2.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dataloader": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^15.5.0",
+    "graphql-iso-date": "^3.6.1",
+    "graphql-middleware": "^6.0.2",
+    "graphql-passport": "^0.6.3",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-shield": "^7.5.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.14",
+    "passport": "^0.4.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/register": "^7.12.10",
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "nodemon": "^2.0.7"
+  }
+}
